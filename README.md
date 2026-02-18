@@ -109,6 +109,14 @@ This changes the home page to add text below the header, providing a brief descr
 `/static/img/theme-colors/red.png`<br>
 This replaces the default icon with the Swinux logo.
 
+<h2>Deploying the Site to Cloudflare Pages</h2>
+
+Cloudflare pages is an excellent tool to host the swinux.org site, as it is free under 100,000 requests/month.
+
+View the documentation here:
+
+https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
+
 <h2>Deploying the Site to a VPS</h2>
 
 Running a Linux system, install docker compose. On Ubuntu, you may use:
@@ -131,4 +139,4 @@ Once this is completed, you can run the site using `docker-compose up -d`.
 
 The site should be publicly available to view using HTTPS.
 
-A reminder that a domain must be configured and a DNS record must point swinux.org to the VPS IP you have.
+A reminder that a domain must be configured (if not swinux.org) and a DNS record must point swinux.org to the public VPS IP you are allocated.
