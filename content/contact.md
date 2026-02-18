@@ -15,6 +15,6 @@ We have multiple social media channels to engage with the club. However, if you 
 
 - Club Page: [Swinburne Linux, Hardware and Code Club](https://campus.hellorubric.com/?s=12119)
 
-- Email: contact@swinux.org (mailto:contact@swinux.org)
+- Email: contact@swinux.org
 
 Please note the committee are students just like you, so we may take some time in responding. Don't worry, we will get back to you!

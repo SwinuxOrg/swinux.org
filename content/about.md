@@ -20,4 +20,4 @@ Our socials are below:
 
 - Club Page: [Swinburne Linux, Hardware and Code Club](https://campus.hellorubric.com/?s=12119)
 
-- Email: contact@swinux.org (mailto:contact@swinux.org)
+- Email: contact@swinux.org
