@@ -14,12 +14,10 @@ If you've got something cool to share, whether it's a project, new software or h
 We also host in-person meetups, where we chat about tech, share knowlege and work on our assignments. You can find out about them when we announce them on our socials.
 
 Our socials are below:
-- Instagram: [@swinburne_lhcc](https://www.instagram.com/swinburne_lhcc/)
+- Instagram: [@swinuxclub](https://www.instagram.com/swinuxclub/)
 
 - Discord: [Swinburne Linux Hardware & Code Club](https://discord.gg/ZfCW8DhnhA)
 
-- Facebook: [slhcc_fb](<https://www.facebook.com/profile.php?id=61574117018988>)
-
-- LinkedIn: [swinburne-linux-hardware-and-code-club-slhcc](<https://www.linkedin.com/company/swinburne-linux-hardware-and-code-club-slhcc/>)
-
 - Club Page: [Swinburne Linux, Hardware and Code Club](https://campus.hellorubric.com/?s=12119)
+
+- Email: contact@swinux.org (mailto:contact@swinux.org)
