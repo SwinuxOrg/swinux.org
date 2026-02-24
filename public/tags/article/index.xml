@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Swinux</title>
+    <link>http://localhost:1313/tags/article/</link>
+    <description>Recent content in Article on Swinux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Sep 2025 12:00:00 +1000</lastBuildDate><atom:link href="http://localhost:1313/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Workshop Resource &amp; Installation Guide</title>
+      <link>http://localhost:1313/posts/learning-python/post/</link>
+      <pubDate>Fri, 19 Sep 2025 12:00:00 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-python/post/</guid>
+      <description>&lt;p&gt;Have you ever wanted to learn how to code? This article explains the basics to get you started on your coding journey with Python. This will get you to a point where you can follow along with the workshop.&lt;/p&gt;
+&lt;p&gt;If you haven&amp;rsquo;t yet, &lt;a href=&#34;https://campus.hellorubric.com/?s=12119&#34;&gt;join our club&lt;/a&gt; and &lt;a href=&#34;https://discord.gg/ZfCW8DhnhA&#34;&gt;our discord&lt;/a&gt;! This will allow you to chat with other Swinburne students interested in Computer Science, who will be happy to give you all sorts of tips and tricks as well as help if you&amp;rsquo;re stuck.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Have you ever wanted to learn how to code? This article explains the basics to get you started on your coding journey with Python. This will get you to a point where you can follow along with the workshop.&lt;/p&gt;
+&lt;p&gt;If you haven&amp;rsquo;t yet, &lt;a href=&#34;https://campus.hellorubric.com/?s=12119&#34;&gt;join our club&lt;/a&gt; and &lt;a href=&#34;https://discord.gg/ZfCW8DhnhA&#34;&gt;our discord&lt;/a&gt;! This will allow you to chat with other Swinburne students interested in Computer Science, who will be happy to give you all sorts of tips and tricks as well as help if you&amp;rsquo;re stuck.&lt;/p&gt;
+&lt;h1 id=&#34;setting-up-your-computer&#34;&gt;Setting Up Your Computer&lt;/h1&gt;
+&lt;p&gt;First, we need to establish some terms so you know what we&amp;rsquo;re talking about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Console/Terminal/CMD&lt;/strong&gt;: This is what we use to run our programs. It&amp;rsquo;s simple and it&amp;rsquo;s entirely text-based (like the hackery things you see in the movies) but it means you can type &lt;em&gt;exactly&lt;/em&gt; what you want, and your computer will do it. It may seem daunting, but you will get used to it quick smart.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Program/App&lt;/strong&gt;: This is what you will run in the console, which will execute (run) your code, giving you an output. In the workshop, it will be saved as a single .py file. You can have multiple files but you will only run one at a time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Directory/Folder&lt;/strong&gt;: This is the layout of where files on your computer are stored. A Directory can be a single folder, or many folders together to point to a specific area where files are stored.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Operating System (OS)&lt;/strong&gt;: There are three major Operating Systems, Windows, Mac and Linux. Each one may have a different way of setting things up. Where they are different, we will write specific instructions for you to follow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Before we even start coding you&amp;rsquo;ll need to install Python. It&amp;rsquo;s an accessible and readable programming language developed in 1991. You&amp;rsquo;ll find out exactly why it&amp;rsquo;s so accessible and readable soon.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#installing-python-on-windows&#34;&gt;Click here for the Windows installation steps.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#installing-python-on-mac&#34;&gt;Click here for the Mac installation steps.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#installing-python-on-linux&#34;&gt;Click here for the Linux installation steps.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#resources&#34;&gt;Other Workshop Resources&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installing-python-on-windows&#34;&gt;Installing Python on Windows&lt;/h2&gt;
+&lt;p&gt;Official Windows Python Install Guide: &lt;a href=&#34;https://docs.python.org/3/using/windows.html&#34;&gt;https://docs.python.org/3/using/windows.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re on a regular x64 laptop (Almost everyone) visit &lt;a href=&#34;https://www.python.org/downloads/release/python-3137&#34;&gt;https://www.python.org/downloads/release/python-3137&lt;/a&gt; and install the Windows Installer (64-bit) program.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re using a Snapdragon laptop, visit the above link and install the Windows Installer (ARM64) program.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step1.png&#34; alt=&#34;Downloading Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Scroll down the page a bit until you see something similar to the image below. Remember what platform you&amp;rsquo;re on and download the appropriate file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step2.png&#34; alt=&#34;Downloading Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Wait for the file to download. Once it&amp;rsquo;s download it should look something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step3.png&#34; alt=&#34;Downloading Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Navigate to your downloads folder and double click on python-3.13.7-amd64.exe or python-3.13.7-arm64.exe (Depending on what you downloaded) to run the installer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step4.png&#34; alt=&#34;Downloading Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Click the &amp;lsquo;Install Now&amp;rsquo; button and wait for Python to install itself. Once you reach the &amp;lsquo;Setup was successful&amp;rsquo; screen, exit the program.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step5.png&#34; alt=&#34;Installing Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step6.png&#34; alt=&#34;Installing Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step7.png&#34; alt=&#34;Installing Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Press the Windows button on your keyboard and type cmd. An app called Command Prompt will appear. Open Command Prompt.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step8.png&#34; alt=&#34;Run Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step9.png&#34; alt=&#34;Run Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At this stage, your desktop should look similar to the image above. This is what you will use to run the Python programs we create in the workshop. For now, set it aside and move on to the &amp;lsquo;Your First Program&amp;rsquo; section. If you face any issues, use the &lt;a href=&#34;https://docs.python.org/3/using/windows.html&#34;&gt;Official Windows Python Install Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#using-windows-to-run-python-code&#34;&gt;Click here to jump to the next section.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installing-python-on-mac&#34;&gt;Installing Python on Mac&lt;/h2&gt;
+&lt;p&gt;Official MacOS Python Install Guide: &lt;a href=&#34;https://docs.python.org/3/using/mac.html&#34;&gt;https://docs.python.org/3/using/mac.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To download the Python installer, navigate to &lt;a href=&#34;https://www.python.org/downloads/release/python-3137&#34;&gt;https://www.python.org/downloads/release/python-3137&lt;/a&gt; and look for the macOS 64-bit universal2 installer and download it, seen below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step1.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Make sure this is the file you download:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step2.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once it has downloaded, double click on the file to launch the installer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step3.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Navigate through the launcher to install Python:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step4.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step5.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step6.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once that is complete, Python is installed and you should see the following prompt:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step7.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;However, you now need to install a certificate to allow Python to work correctly.&lt;/p&gt;
+&lt;p&gt;Navigate to the &lt;code&gt;Applications/Python 3.13/&lt;/code&gt; directory to view the following contents:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step8.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Double clicking on the .command file will allow Python to run correctly. You should be able to see the following prompt within a terminal window:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/mac/step9.png&#34; alt=&#34;Downloading Python on Mac&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When this is complete, you can open the terminal app. If you type the below command and press enter, you should see Python and it&amp;rsquo;s version number.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;At this stage, Python should be installed correctly. This is what you will use to run the Python programs we create in the workshop. For now, set it aside and move on to the &amp;lsquo;Your First Program&amp;rsquo; section. If you face any issues, use the &lt;a href=&#34;https://docs.python.org/3/using/mac.html&#34;&gt;Official MacOS Python Install Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#using-mac/linux-to-run-python-code&#34;&gt;Click here to jump to the next section.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installing-python-on-linux&#34;&gt;Installing Python on Linux&lt;/h2&gt;
+&lt;p&gt;Look at you. You&amp;rsquo;re already using Linux, you shouldn&amp;rsquo;t need to be told how to install Python. You probably already have it installed out-of-the-box.&lt;/p&gt;
+&lt;p&gt;If you &lt;em&gt;really&lt;/em&gt; want to install it again, open the console and type the following, depending on your distribution:&lt;/p&gt;
+&lt;p&gt;Debian-Based Distributions
+&lt;code&gt;sudo apt install python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Fedora-Based Distributions
+&lt;code&gt;sudo dnf install python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Arch-Based Distributions
+&lt;code&gt;sudo pacman -S python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Nix/Gentoo-Based Distributions
+&lt;code&gt;Have fun.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#using-mac/linux-to-run-python-code&#34;&gt;Click here to jump to the next section.&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;using-windows-to-run-python-code&#34;&gt;Using Windows to run Python code&lt;/h1&gt;
+&lt;p&gt;Once you&amp;rsquo;ve got python installed, you can verify that it is in fact ready to run by using the following command in the console:&lt;/p&gt;
+&lt;p&gt;For &lt;strong&gt;Windows&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;py --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step10.png&#34; alt=&#34;Running Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It should print Python 3.XX.X to the screen, with X being the specific version numbers of the program.&lt;/p&gt;
+&lt;p&gt;You can now create your first application using your favourite text editor (such as notepad+++ on Windows).&lt;/p&gt;
+&lt;p&gt;To keep your disk nice and clean, we reccomend creating a seperate folder just for Python files. On all Operating Systems, create a folder called Python in your Documents folder.&lt;/p&gt;
+&lt;p&gt;Name it &lt;code&gt;myfirstprogram&lt;/code&gt;, as it&amp;rsquo;s the first program you&amp;rsquo;ve ever made! Make sure not to append .txt to the file, as Python will not be able to find and run it. You need to append .py to the file so Python will recognise it as a Python program that can be used.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;re ready to edit the file, add the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step11.png&#34; alt=&#34;Running Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.&lt;/p&gt;
+&lt;p&gt;On &lt;strong&gt;Windows&lt;/strong&gt;, you can do the following (Keep in mind the folders must exist, and your Python file should exist in that folder/directory):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd &amp;quot;C:\Users\yourusername\Documents\Python&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve done that, you should be in the correct folder. Run the command below:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;py myfirstprogram&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You should have seen a 9 get printed to the console on your screen. That means that you&amp;rsquo;ve just ran your first program!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/windows/step12.png&#34; alt=&#34;Running Python on Windows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t see that, make sure you&amp;rsquo;ve got Python installed and that you&amp;rsquo;ve copied the code exactly, otherwise it may not run as you&amp;rsquo;d expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won&amp;rsquo;t necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.&lt;/p&gt;
+&lt;p&gt;At this point, you are ready for the workshop. Please follow along with the coding examples during the workshop to get the most out of it, either on your device or via the slides.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#resources&#34;&gt;Workshop Resources&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;using-maclinux-to-run-python-code&#34;&gt;Using Mac/Linux to run Python code&lt;/h1&gt;
+&lt;p&gt;Once you&amp;rsquo;ve got python installed, you can verify that it is in fact ready to run by using the following command in the console:&lt;/p&gt;
+&lt;p&gt;For &lt;strong&gt;Mac/Linux&lt;/strong&gt; (Linux example provided):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/linux/step1.png&#34; alt=&#34;Running Python on Mac/Linux&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can now create your first application using your favourite text editor (such as notepad+++ on Windows).&lt;/p&gt;
+&lt;p&gt;To keep your disk nice and clean, we reccomend creating a seperate folder just for Python files. On all Operating Systems, create a folder called Python in your Documents folder.&lt;/p&gt;
+&lt;p&gt;Name it &lt;code&gt;myfirstprogram.py&lt;/code&gt;, as it&amp;rsquo;s the first program you&amp;rsquo;ve ever made! Make sure not to append .txt to the file, as Python will not be able to find and run it. You need to append .py to the file so Python will recognise it as a Python program that can be used.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;re ready to edit the file, add the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/syntax.png&#34; alt=&#34;Running Python on Mac/Linux&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.&lt;/p&gt;
+&lt;p&gt;On &lt;strong&gt;Mac/Linux&lt;/strong&gt;, you can do the following (Keep in mind the folders must exist, and your Python file should exist in that folder/directory):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd ~/Documents/Python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve done that, you should be in the correct folder. Run the command below:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;python myfirstprogram.py&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You should have seen a 9 get printed to the console on your screen. That means that you&amp;rsquo;ve just ran your first program!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/learning-python/images/linux/step2.png&#34; alt=&#34;Running Python on Mac/Linux&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t see that, make sure you&amp;rsquo;ve got Python installed and that you&amp;rsquo;ve copied the code exactly, otherwise it may not run as you&amp;rsquo;d expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won&amp;rsquo;t necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.&lt;/p&gt;
+&lt;p&gt;At this point, you are ready for the workshop. Please follow along with the coding examples during the workshop to get the most out of it, either on your device or via the slides.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://swinux.org/posts/learning-python/post/#resources&#34;&gt;Workshop Resources&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;
+&lt;p&gt;Below are links for the workshop, including slides and full code examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1F5smICawa9SviFuLLddfIBlY2cNIq6xU?usp=drive_link&#34;&gt;Google Drive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admin.hellorubric.com/files?id=002b880e-f75a-4202-8e22-1ffe00953616&#34;&gt;Rubric Fileshare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&amp;rsquo;ve prepared some resources for you which may assist you in learning how to program. Some of these resources focus on other programming languages, but the principles are useful and may give you some ideas of projects to attempt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/python/default.asp&#34;&gt;W3Schools&lt;/a&gt;, A collection of resources for learning Python, alongside other languages. Features a browser-based interactive code editor.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pip.pypa.io/en/stable/&#34;&gt;Pip&lt;/a&gt;, A Python library package manager to install libraries for use in your programs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheCodingTrain&#34;&gt;The Coding Train&lt;/a&gt;, an enthusiastic programming teacher that builds and explains creative and interesting projects.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@freecodecamp&#34;&gt;FreeCodeCamp.org&lt;/a&gt;, an organisation providing lecture-style videos for all things programming, including Python.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Can I write a blog/article/guide?</title>
+      <link>http://localhost:1313/posts/how-to-contribute/post/</link>
+      <pubDate>Wed, 30 Jul 2025 11:52:33 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-to-contribute/post/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve got a cool project you&amp;rsquo;re working on, or want to share something interesting you&amp;rsquo;ve learnt, the Swinux blog is the perfect way to do it. We will generally accept all posts so long as they contribute to one of the main focuses of the club:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt;: This is everything Linux, including distros, ricing, packages, kernel contributions etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hardware&lt;/strong&gt;: This is everything PC parts, modification of game consoles, arduinos etc.&lt;/p&gt;</description>
+      <content>&lt;p&gt;If you&amp;rsquo;ve got a cool project you&amp;rsquo;re working on, or want to share something interesting you&amp;rsquo;ve learnt, the Swinux blog is the perfect way to do it. We will generally accept all posts so long as they contribute to one of the main focuses of the club:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt;: This is everything Linux, including distros, ricing, packages, kernel contributions etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hardware&lt;/strong&gt;: This is everything PC parts, modification of game consoles, arduinos etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;: This encompasses everything software, from CI/CD deployments, kernel modifications to what you learnt running/creating XYZ program, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;what-do-i-use-to-write-it&#34;&gt;What do I use to write it?&lt;/h1&gt;
+&lt;p&gt;Writing a blog is straightforward. We use Hugo, which makes the formatting easily accessible to a wide range of people. Hugo uses markdown as a formatting mechanism for articles. To create a markdown file, you can replace a .txt file with .md. For example, if I had &amp;lsquo;helloworld.txt&amp;rsquo; I would replace it with &amp;lsquo;helloworld.md&amp;rsquo; to make it markdown compatible.&lt;/p&gt;
+&lt;p&gt;There are a variety of tools markdown provides, for example creating headings, lists and links. You can see an exhaustive list of aspects &lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;&gt;here&lt;/a&gt;. Below is a code section of &lt;a href=&#34;http://localhost:1313/posts/creating-swinux/creating-swinux/&#34;&gt;Setting Up The Swinux Website&lt;/a&gt; and what it&amp;rsquo;s rendered output will look like.&lt;/p&gt;
+&lt;p&gt;This is the markdown file containing a snippet of the article.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/how-to-contribute/images/how-to-contribute-editor.png&#34; alt=&#34;Swinburne Event Details&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can see what it looks like when Hugo formats the page.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/how-to-contribute/images/how-to-contribute-page.png&#34; alt=&#34;Swinburne Event Details&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;how-do-i-write-a-blogarticleguide&#34;&gt;How do I write a blog/article/guide?&lt;/h1&gt;
+&lt;p&gt;It&amp;rsquo;s up to you. You would have read a forum post or news article before, and found that it is really good at conveying meaning and the author&amp;rsquo;s message. Conversely, you would have seen ways articles are written which didn&amp;rsquo;t appeal to you (perhaps even this article!).&lt;/p&gt;
+&lt;p&gt;Generally, if you are writing a guide, you want four major categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Basics&lt;/strong&gt;: Distill everything down into a couple of sentences, to inform the reader if this article is something they&amp;rsquo;d like to read.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Resources&lt;/strong&gt;: What resources did you consult for the project. What resources did you wish you had when learning about it? These can be online articles, physical books, stackoverflow pages etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The How&lt;/strong&gt;: How did you go about the project, what steps can someone reading take to recreate what you&amp;rsquo;ve done? What things caught you out while learning, and how would you recommend someone to avoid them?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Learning&lt;/strong&gt;: What did you learn doing this project, and what avenues does it open up to learn in the future?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of articles or blogs, there isn&amp;rsquo;t any one way to go about it. Like with guides, it&amp;rsquo;s up to you to decide what the best way to communicate to the user is. You&amp;rsquo;ll find ways to improve what you&amp;rsquo;ve written, make things more clear and add some spice. As with everything it&amp;rsquo;s a continual learning process and any effort is better than none!&lt;/p&gt;
+&lt;h1 id=&#34;what-cant-i-write-about&#34;&gt;What can&amp;rsquo;t I write about?&lt;/h1&gt;
+&lt;p&gt;Every article should reflect one of the three categories above, although there is significant leeway in what you can write about. Likewise, as a Swinburne Student Association club, we have to abide by their code of conduct. This will not matter for the most part, but please keep it in mind.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Setting Up The Swinux Website</title>
+      <link>http://localhost:1313/posts/creating-swinux/post/</link>
+      <pubDate>Mon, 28 Jul 2025 14:19:18 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/creating-swinux/post/</guid>
+      <description>&lt;p&gt;Have you ever wanted to create a website? Well, the Swinux committee did! Here&amp;rsquo;s how we went about it.&lt;/p&gt;
+&lt;h1 id=&#34;the-basics&#34;&gt;The Basics:&lt;/h1&gt;
+&lt;p&gt;To deploy the website, we&amp;rsquo;ll need the following components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An up-to-date Linux machine&lt;/li&gt;
+&lt;li&gt;Basic knowlege of a shell, package manager and git&lt;/li&gt;
+&lt;li&gt;Some creativity!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This guide provides all of the steps neccessary to create a simple website, with a first post.&lt;/p&gt;
+&lt;p&gt;This guide features heavy use of the &amp;amp;&amp;amp; operator which allows for multiple commands on the same line. The website is a static site built by a framework called Hugo. Hugo uses markdown files to create webpages, which means creating a page, blog entry or anything else is quite simple.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Have you ever wanted to create a website? Well, the Swinux committee did! Here&amp;rsquo;s how we went about it.&lt;/p&gt;
+&lt;h1 id=&#34;the-basics&#34;&gt;The Basics:&lt;/h1&gt;
+&lt;p&gt;To deploy the website, we&amp;rsquo;ll need the following components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An up-to-date Linux machine&lt;/li&gt;
+&lt;li&gt;Basic knowlege of a shell, package manager and git&lt;/li&gt;
+&lt;li&gt;Some creativity!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This guide provides all of the steps neccessary to create a simple website, with a first post.&lt;/p&gt;
+&lt;p&gt;This guide features heavy use of the &amp;amp;&amp;amp; operator which allows for multiple commands on the same line. The website is a static site built by a framework called Hugo. Hugo uses markdown files to create webpages, which means creating a page, blog entry or anything else is quite simple.&lt;/p&gt;
+&lt;h1 id=&#34;the-resources&#34;&gt;The Resources:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo Quickstart Guide: &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Re-Terminal Hugo Theme: &lt;a href=&#34;https://github.com/mirus-ua/hugo-theme-re-terminal&#34;&gt;https://github.com/mirus-ua/hugo-theme-re-terminal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Markdown formatting: &lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;&gt;https://www.markdownguide.org/basic-syntax/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;the-how&#34;&gt;The How:&lt;/h1&gt;
+&lt;p&gt;To begin, we first need to verify we&amp;rsquo;re on an up to date system. Running the following commands on most distros (Ubuntu, Debian) syncs the latest version of each package to your system, and upgrades them:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Make sure to confirm the changes in the command output. Next, we need Hugo to start creating our website. Running the following command will install Hugo and prepare it for use:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install hugo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once Hugo is installed, we can begin to create our website. If we want to create the project in our home folder, (Think C:\Users\Yourname on Windows) we can run the following command:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd ~/ &amp;amp;&amp;amp; hugo new site swinux&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After changing our current directory, we also tell Hugo to create a new website with the name of &amp;lsquo;swinux&amp;rsquo;. If you want to change the name of the site, feel free to change it to whatever you had in mind.&lt;/p&gt;
+&lt;p&gt;We then need to enter into the site directory by issuing the following command:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd swinux&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Next, we need to decide on a theme for Hugo. Themes dictate how Hugo will look, and there are a wide variety of themes available for your site. Themes can be installed in a variety of ways, but we will use git to install one. Running the following commands will set up the Theme swinux will use.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git init &amp;amp;&amp;amp; git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal &amp;amp;&amp;amp; echo &amp;quot;theme = &#39;re-terminal&#39;&amp;quot; &amp;gt;&amp;gt; hugo.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The last command above will inform Hugo of the theme we want to use by entering it into the &amp;lsquo;hugo.toml&amp;rsquo; file. This file contains most of the bare essentials for running a site. Now that we&amp;rsquo;ve got Hugo and our chosen theme installed, we can create our first post:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo new content content/posts/my-first-post.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If we want a different name, we can change &amp;lsquo;my-first-post.md&amp;rsquo; to something else, like &amp;lsquo;hello-world.md&amp;rsquo;. As you can see in the file extension of &amp;lsquo;my-first-post.md&amp;rsquo;, it is a simple markdown file. This means that you don&amp;rsquo;t really need to know anything about programming to be able to write a blog post. You&amp;rsquo;ve probably already used Markdown format before without even knowing it. Have a look and see what cool stuff markdown can do for you:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;&gt;https://www.markdownguide.org/basic-syntax/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We can then open the file, either through a graphical text editor (such as Notepad, Kate or GNOME&amp;rsquo;s Text Editor) or through a command user interface (such as vi or nano). Everyone will have their preference, but I will stick to the command line and use nano:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nano ./content/posts/my-first-post.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;When you open it up, you&amp;rsquo;ll see that there is already some text. You can modify these values, but more importantly, you can begin to add your own text which will be the content of this post. Once you&amp;rsquo;re happy with what you&amp;rsquo;ve got, you can save and exit nano by doing the following shortcuts in succession:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl + S&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;Ctrl + X&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This will save and exit nano respectively. At this point, we&amp;rsquo;ve got everything we need for our first website. We have Hugo, which manages our pages and site, and at this point we should have written something for our first webpage. We&amp;rsquo;re now ready to see it in action!&lt;/p&gt;
+&lt;p&gt;In our shell, we can run the command below to start up the webserver. This will build the website and make it available so we can see what it looks like.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/creating-swinux/images/swinux-hugooutput.png&#34; alt=&#34;Hugo Command Output&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You should be able to see the above output in your shell. If you look closely, you will see that the website is available at:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;http://localhost:1313/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Navigating to this link in our browser, we can see that we indeed have a webpage!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/creating-swinux/images/swinux-websitebrowser.png&#34; alt=&#34;Webpage Screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Isn&amp;rsquo;t that very meta?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At this point, you&amp;rsquo;ve learned all of the basics required to create a website with Hugo. You&amp;rsquo;ve used a couple of basic Linux commands, including use of the &amp;amp;&amp;amp; operator to combine commands. In addition, you&amp;rsquo;ve used a package manager and a text editor of choice to make changes to the website using markdown. You&amp;rsquo;ve deployed the website and can navigate through it.&lt;/p&gt;
+&lt;p&gt;However, there&amp;rsquo;s still &lt;strong&gt;much&lt;/strong&gt; more to learn. You can check out the resources section at the top of the page for more information.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
