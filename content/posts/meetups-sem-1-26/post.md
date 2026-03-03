@@ -2,12 +2,12 @@
 title = "Weekly Meetups Start March 3rd!"
 date = "2026-03-03T10:23:45+10:00"
 author = "Swinux Committee"
-description = "![Swinburne Event Details](/posts/orientation-sem-1-26/images/meetups-sem-1-26.png)"
+description = "![Swinburne Event Details](/posts/meetups-sem-1-26/images/meetups-sem-1-26.png)"
 readingTime = true
 tags = ["event"]
 +++
 
-![Swinburne Event Details](/posts/orientation-sem-1-26/images/meetups-sem-1-26.png)
+![Swinburne Event Details](/posts/meetups-sem-1-26/images/meetups-sem-1-26.png)
 
 We're pleased to announce that our weekly meetups for Semester 1 of 2026 has been confirmed! Join us weekly every Tuesday from 4:30PM at EN405 to hang out with members from the Swinux, Cybersecurity and Programming clubs.
 
