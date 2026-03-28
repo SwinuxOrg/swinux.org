@@ -1,6 +1,6 @@
 +++
 title = "Clubs need YOU to sign up on Rubric"
-date = "2026-03-03T11:23:45+10:00"
+date = "2026-03-28T11:23:45+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/trifecta-announcement/images/trifecta.png)"
 readingTime = true
