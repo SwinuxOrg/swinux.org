@@ -1,6 +1,6 @@
 +++
-title = "FOSS Game Night: Super Tux Kart"
-date = "2026-03-03T10:23:45+10:00"
+title = "FOSS Game Night: Xonotic"
+date = "2026-03-28T10:23:45+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/gamenight-9-4-26/images/xonoticfoss.png)"
 readingTime = true
