@@ -7,6 +7,7 @@ readingTime = true
 tags = ["article"]
 +++
 
+A lot of the members on this site are only members of a single club, or not members at all. Joining is free for all Swinburne students and helps us raise funds for bigger and better events. We encourage everyone to join all of the clubs below, as each one focuses on unique and engaging aspects of Computer Science. 
 
 ![Swinburne Event Details](/posts/trifecta-announcement/images/trifecta.png)
 
