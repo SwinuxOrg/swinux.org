@@ -89,3 +89,5 @@ Navigating to this link in our browser, we can see that we indeed have a webpage
 At this point, you've learned all of the basics required to create a website with Hugo. You've used a couple of basic Linux commands, including use of the && operator to combine commands. In addition, you've used a package manager and a text editor of choice to make changes to the website using markdown. You've deployed the website and can navigate through it.
 
 However, there's still **much** more to learn. You can check out the resources section at the top of the page for more information.
+
+If you're new to Swinux, you can have a look at our previous [events and meetings](https://swinux.org/tags/event) we've held. As always, we're keen to hear your feedback and input regarding the direction of the club. You can always get in contact with us through our email, contact@swinux.org, or alternatively via [Instagram](https://www.instagram.com/swinuxclub/) and [Discord](https://discord.gg/ZfCW8DhnhA).
