@@ -40,4 +40,4 @@ This workshop will cover the following features:
 
 The workshop features 2 exercises, 1 for each tool, and a homework exercise to be done after the workshop.
 
-Attendance is online-only. While we plan on recording this workshop, we can't guarantee that a recording will be released. Materials used in this workshop will be provided online via https://swinux.org and the #events channel.
+Attendance is online-only. While we plan on recording this workshop, we can't guarantee that a recording will be released. Materials used in this workshop will be provided online via <https://swinux.org> and the #events channel.
