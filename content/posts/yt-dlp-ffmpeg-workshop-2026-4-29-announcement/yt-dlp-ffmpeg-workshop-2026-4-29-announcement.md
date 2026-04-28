@@ -8,7 +8,7 @@ draft = false
 tags = ["event"]
 +++
 
-![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29/images/banner.png)
+![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-announcement/images/banner.png)
 
 > This event might still be pending for approval by SSA by the time this post is published. Once it's actually approved, it will be announced on other social media channels such as Discord and Instagram.
 

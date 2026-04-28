@@ -8,7 +8,7 @@ draft = false
 tags = ["event"]
 +++
 
-![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29/images/banner.png)
+![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-files/images/banner.png)
 
 The **yt-dlp and FFmpeg Workshop** is now live!
 
