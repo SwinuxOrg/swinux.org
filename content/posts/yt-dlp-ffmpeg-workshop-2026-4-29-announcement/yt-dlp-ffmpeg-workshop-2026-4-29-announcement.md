@@ -4,7 +4,7 @@ date = "2026-04-28T18:30:00+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-announcement/images/banner.png)"
 readingTime = true
-draft = true
+draft = false
 tags = ["event"]
 +++
 
