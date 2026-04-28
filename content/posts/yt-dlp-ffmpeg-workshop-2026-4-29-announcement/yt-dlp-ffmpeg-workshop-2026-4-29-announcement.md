@@ -1,6 +1,6 @@
 +++
 title = "yt-dlp and FFmpeg Workshop - Announcement"
-date = "2026-04-28T18:30:00+10:00"
+date = "2026-05-01T16:00:00+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-announcement/images/banner.png)"
 readingTime = true
@@ -14,10 +14,11 @@ tags = ["event"]
 
 We have just announced the **yt-dlp and FFmpeg Workshop**!
 
-* Time: April 29th, 4:30 PM - 6:30 PM
+* Time: May the 4th, 4:30 PM - 6:30 PM
 * Location: Lobby Voice Channel in Swinux Discord Server
+* Ticket Sales: May the 1st 4:00 PM - May the 4th 4:00 PM
 
-An online workshop covering the basics of yt-dlp and FFmpeg, 2 powerful command-line tools for working with digital media.
+**An online workshop covering the basics of yt-dlp and FFmpeg, 2 powerful command-line tools for working with digital media.**
 
 In this workshop, you'll be learning the usage of yt-dlp and FFmpeg by running example commands yourself. This workshop will also teach you about codecs and other concepts around video and audio encoding.
 

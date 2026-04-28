@@ -1,6 +1,6 @@
 +++
 title = "yt-dlp and FFmpeg Workshop - Files"
-date = "2026-04-29T16:30:00+10:00"
+date = "2026-05-04T16:30:00+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-files/images/banner.png)"
 readingTime = true
@@ -12,7 +12,7 @@ tags = ["event"]
 
 The **yt-dlp and FFmpeg Workshop** is now live!
 
-* Time: April 29th, 4:30 PM - 6:30 PM
+* Time: May the 4th, 4:30 PM - 6:30 PM
 * Location: Lobby Voice Channel in Swinux Discord Server
 
 [Original Announcement](/posts/yt-dlp-ffmpeg-workshop-2026-4-29-files)
