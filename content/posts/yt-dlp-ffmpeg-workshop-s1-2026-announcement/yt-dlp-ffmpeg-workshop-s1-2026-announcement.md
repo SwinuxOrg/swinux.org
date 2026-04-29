@@ -44,5 +44,5 @@ The workshop features 2 exercises, 1 for each tool, and a homework exercise to b
 
 Attendance is online-only. While we plan on recording this workshop, we can't guarantee that a recording will be released. Materials used in this workshop will be provided online via <https://swinux.org> and the #events channel.
 
-* Rubric Link: <https://campus.hellorubric.com/?eid=61569>
+* Rubric Link: <https://campus.hellorubric.com/?eid=62671>
 * Pre-Workshop Content: <https://drive.google.com/file/d/1q5C6Vdk_TcyZ30PNFubkRm_oDoE969AS/view>
