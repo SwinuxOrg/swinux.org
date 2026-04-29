@@ -1,6 +1,6 @@
 +++
 title = "yt-dlp and FFmpeg Workshop - Announcement"
-date = "2026-05-01T16:00:00+10:00"
+date = "2026-04-29T18:00:00+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-s1-2026-announcement/images/banner.png)"
 readingTime = true
