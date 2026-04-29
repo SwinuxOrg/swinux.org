@@ -10,12 +10,11 @@ tags = ["event"]
 
 ![Swinburne Event Details](/posts/yt-dlp-ffmpeg-workshop-s1-2026-announcement/images/banner.png)
 
-> This event might still be pending for approval by SSA by the time this post is published. Once it's actually approved, it will be announced on other social media channels such as Discord and Instagram.
-
 We have just announced the **yt-dlp and FFmpeg Workshop**!
 
 * Time: May the 4th, 4:30 PM - 6:30 PM
 * Location: Lobby Voice Channel in Swinux Discord Server
+* Host: Leon Burchell - Vice President
 * Ticket Sales: May the 1st 4:00 PM - May the 4th 4:00 PM
 
 **An online workshop covering the basics of yt-dlp and FFmpeg, 2 powerful command-line tools for working with digital media.**
@@ -45,4 +44,5 @@ The workshop features 2 exercises, 1 for each tool, and a homework exercise to b
 
 Attendance is online-only. While we plan on recording this workshop, we can't guarantee that a recording will be released. Materials used in this workshop will be provided online via <https://swinux.org> and the #events channel.
 
-Pre-Workshop Content: <https://drive.google.com/file/d/1q5C6Vdk_TcyZ30PNFubkRm_oDoE969AS/view>
+* Rubric Link: <https://campus.hellorubric.com/?eid=61569>
+* Pre-Workshop Content: <https://drive.google.com/file/d/1q5C6Vdk_TcyZ30PNFubkRm_oDoE969AS/view>
