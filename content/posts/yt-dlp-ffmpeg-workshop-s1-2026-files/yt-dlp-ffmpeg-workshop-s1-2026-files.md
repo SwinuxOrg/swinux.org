@@ -17,6 +17,7 @@ The **yt-dlp and FFmpeg Workshop** is now live!
 
 [Original Announcement](/posts/yt-dlp-ffmpeg-workshop-s1-2026-announcement/yt-dlp-ffmpeg-workshop-s1-2026-announcement)
 
-* Main Workshop Document: <https://drive.google.com/file/d/18z3M5iV9prn15AdT5PMhA_7_q-VTbckd/view>
+* Pre-Workshop Content: <https://drive.google.com/file/d/1q5C6Vdk_TcyZ30PNFubkRm_oDoE969AS/view>
+* Main Workshop Content: <https://drive.google.com/file/d/1nC9hj7HiLgnkL-ilJ2K5iGqCewcg_gB9/view>
 * Homework: <https://drive.google.com/file/d/1IpR0y8NFh5AWatv1gOcLNAHvSWle48_S/view>
   * Not available until after the workshop.
