@@ -13,7 +13,7 @@ tags = ["event"]
 The **yt-dlp and FFmpeg Workshop** is now live!
 
 * Time: May the 4th, 4:30 PM - 6:30 PM
-* Location: Lobby Voice Channel in Swinux Discord Server
+* Location: Lobby Voice Channel in the Swinux Discord Server
 
 [Original Announcement](/posts/yt-dlp-ffmpeg-workshop-s1-2026-announcement/yt-dlp-ffmpeg-workshop-s1-2026-announcement)
 

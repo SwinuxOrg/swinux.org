@@ -13,7 +13,7 @@ tags = ["event"]
 We have just announced the **yt-dlp and FFmpeg Workshop**!
 
 * Time: May the 4th, 4:30 PM - 6:30 PM
-* Location: Lobby Voice Channel in Swinux Discord Server
+* Location: Lobby Voice Channel in the Swinux Discord Server
 * Host: Leon Burchell - Vice President
 * Ticket Sales: May the 1st 4:00 PM - May the 4th 4:00 PM
 
