@@ -21,3 +21,7 @@ The **yt-dlp and FFmpeg Workshop** is now live!
 * Main Workshop Content: <https://drive.google.com/file/d/1nC9hj7HiLgnkL-ilJ2K5iGqCewcg_gB9/view>
 * Homework: <https://drive.google.com/file/d/1IpR0y8NFh5AWatv1gOcLNAHvSWle48_S/view>
   * Not available until after the workshop.
+
+# Recording
+
+The workshop is already over and the recording has been released! You can download it from here: <https://drive.google.com/drive/folders/1_nRlPWICzURcvauANQGAhacnD33LABMv>
