@@ -39,9 +39,9 @@ theme = ["github.com/mirus-ua/hugo-theme-re-terminal/v2"]
   [languages.en.params]
     languageName = "English"
     title = "Swinux - Swinburne Linux Hardware & Code Club"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "The Swinburne Linux Hardware & Code Club Blog"
     owner = "Swinux Committee"
-    keywords = ""
+    keywords = "swinburne, linux, code, programming, computer science, university, educational, blog, club"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
