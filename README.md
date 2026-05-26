@@ -1,8 +1,10 @@
 This is the repo for the Swinux website. It's using Hugo and we use the Re-Terminal theme with modifications. 
 
+**Before contributing, please read this documentation and look at existing examples, or contact the relevant committee member for guidance.**
+
 <h1>Running the Website</h1>
 
-This repo uses the Re-Terminal theme. After cloning this repo locally, add the Re-Terminal theme to your ./themes/ directory to successfully build and run the site. You can get the theme here:
+This repo uses the Re-Terminal theme. After cloning this repo locally, if the Re-Terminal theme is not added, it will be on build. You can get the theme here:
 
 https://github.com/mirus-ua/hugo-theme-re-terminal
 
@@ -10,25 +12,29 @@ Clone this repo:
 
 `git clone https://github.com/swinuxclub/swinux.org`
 
-Enter themes directory:
+Enter the directory:
 
-`cd themes`
+`cd swinux.org`
 
-Download Re-Terminal theme:
+You can run the site using:
 
-`git clone https://github.com/mirus-ua/hugo-theme-re-terminal`
+`hugo server -D --disableFastRender`
 
-Rename the file:
+The above enables all posts marked as draft, and fully recreates the site on changes to ensure accuracy.
 
-`mv hugo-theme-re-terminal re-terminal`
-
-Once this is completed, you can run the site using:
-
-`hugo server`
-
-Afterwards, to build the static files, run the following:
+Afterwards, to build the static files for deployment, run the following:
 
 `hugo build`
+
+If you're using Cloudflare to deploy the site, you will not need to build the files.
+
+If you've deleted the theme, you can remove the `go.sum` and `go.mod` files. Then, run the following commands to re-add the theme.
+
+`hugo mod init swinux.org`
+
+`hugo mod tidy`
+
+`hugo mod get github.com/mirus-ua/hugo-theme-re-terminal/v2`
 
 <h2>Post Structure</h2>
 
@@ -37,13 +43,15 @@ Posts are saved to the content directory. The about and content pages are self-c
 A post should be self-contained in it's own folder, with any images being placed in an /images subfolder. A post should have the following structure and be placed in the /posts directory:
 
 Page:
-- `my-first-post/my-first-post.md`
-- `my-first-post/images/my-first-post-image1.png`
-- `my-first-post/images/my-first-post-cutekittens.png`
+- `01-oct-27-my-first-post/index.md`
+- `01-oct-27-my-first-post/images/my-first-post-image1.png`
+- `01-oct-27-my-first-post/images/my-first-post-cutekittens.png`
+
+**Note that the markdown file must be named index.md. In addition, our naming convention requires that the date is in the format year-month-day-title such as 25-jul-13-first-blog-post. Please keep as close to this as possible.**
 
 <h2>Markdown Post Structure</h2>
 
-All posts should have the following in the top of the Markdown file to allow Hugo to publish the site:
+All posts should have the following in the top of the index.md Markdown file to allow Hugo to publish the site:
 
 +++<br>
 title = "My First Post"<br>
@@ -56,14 +64,13 @@ tags = ["tag1","tag2", "hi"]<br>
 +++<br>
 
 **description = "string"**<br>
-Setting description sets the bottom text for posts on the main page. You can set an image as a description to be shown instead of text.
+Setting the description sets the bottom text for posts on the main page. We reccomend leaving it blank and it will autofill.
 
 **readingTime = true|false**<br>
 readingTime enables reading estimation to give our readers an estimate at how long the article is.
 
 **draft = true|false**<br>
-Setting draft to true disables the article from being published to the site. This is useful when articles are in progress.
-
+Setting draft to true disables the article from being published to the site. This is useful when articles are a work in progress.
 
 To maintain site consistency, please only use the following tags:
 - event
@@ -74,48 +81,57 @@ To maintain site consistency, please only use the following tags:
 - code
 
 Images can be referenced in the post (markdown file) with the following directory structure:
-- `/posts/my-first-post/images/my-first-post-image1.png`
-- `/posts/my-first-post/images/my-first-post-cutekittens.png`
+- `images/my-first-post-image1.png`
+- `images/my-first-post-cutekittens.png`
 
 So that an image can be inserted with:
 
+`{{< inset-img src="images/my-first-post-image1.png" alt="Your alt text.">}}`
+
+The above is the preferred method for attaching images, as they are automatically compressed on site build and results in faster loading of the webpage. The image will be automatically cropped to a square aspect ratio.
+
+However, you can also use the below method for non-square images. We discourage this in preference to site load times.
+
 `[Alt Text For Image](/posts/my-first-post/images/my-first-post-cutekittens.png)`
+
+You can use markdown formatting to edit the style and general format of the post. You can view a guide here:
+
+https://www.craftmarkdown.com/markdown-cheat-sheet
 
 <h2>Theme Modifications</h2>
 
 Modifications to the existing theme can be put in the root hugo directory matching the structure provided by the Re-Terminal themes. This will overwrite css and html changes without needing to modify the theme directly. See below for changes made:
 
-`assests/css/main.scss`<br>
-This recolours the background & increases the article width to increase page density.
+`assets/css/variables.scss`<br>
+This recolours the background to a darker black to increase contrast for easier reading.
 
-`assests/css/button.scss`<br>
-This slightly increases the size of the read more button.
+`assets/css/color/red.scss`<br>
+This recolours the red accent to match the Swinburne colour scheme.
 
-`assests/css/color/color.scss`<br>
-This changes the red theme to match the shade of the Swinux club colour.
+`assets/css/logo.scss`<br>
+This is modified to remove the coloured background in the default theme.
 
-`layouts/partials/footer.html`<br>
-This changes the footer to link to Re-Terminal & Hugo, and our contact and about pages.
+`shortcodes/inset-img.html`<br>
+This is the code used to crop and compress images which enables fast page loading.
 
-`layouts/partials/logo.html`<br>
-This changes the logo text (top of page) to the Swinux club + record.
+`partials/logo.html`<br>
+This is modified to implement a clickable club logo and title in html.
 
-`layouts/partials/header.html`<br>
-This changes the header to integrate menus for events, articles about etc. at the top of the page.
 
-`layouts/partials/_default/index.html`<br>
-This changes the home page to add text below the header, providing a brief description about the webpage.
-
-`/static/img/theme-colors/red.png`<br>
-This replaces the default icon with the Swinux logo.
 
 <h2>Deploying the Site to Cloudflare Pages</h2>
+
+**This is the preferred (and current) method to deploy the website.**
 
 Cloudflare pages is an excellent tool to host the swinux.org site, as it is free under 100,000 requests/month.
 
 View the documentation here:
 
 https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
+
+You attach the Github repository to Cloudflare which builds and deploys the site on changes to the repository automatically. Failed builds are not deployed, but mistakes can be pushed live.
+
+**Please double check the accuracy and quality of your posts by using the debug server.**
 
 <h2>Deploying the Site to a VPS</h2>
 

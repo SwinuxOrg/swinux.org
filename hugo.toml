@@ -1,7 +1,7 @@
 baseURL = 'https://swinux.org/'
 languageCode = 'en-us'
 title = 'Swinux'
-theme = 're-terminal'
+theme = ["github.com/mirus-ua/hugo-theme-re-terminal/v2"]
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -12,7 +12,7 @@ theme = 're-terminal'
   themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -32,4 +32,45 @@ theme = 're-terminal'
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
 
+  favicon = "swinuxlogo.ico"
 
+
+[languages]
+  [languages.en.params]
+    languageName = "English"
+    title = "Swinux - Swinburne Linux Hardware & Code Club"
+    subtitle = "A simple, retro theme for Hugo"
+    owner = "Swinux Committee"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.params.logo]
+      logoText = "Swinux - Swinburne Linux Hardware & Code Club"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "Events"
+        name = "Events"
+        url = "/tags/event/"
+      [[languages.en.menu.main]]
+        identifier = "Articles"
+        name = "Articles"
+        url = "/tags/article/"
+      [[languages.en.menu.main]]
+        identifier = "Contact"
+        name = "Contact"
+        url = "/contact"
