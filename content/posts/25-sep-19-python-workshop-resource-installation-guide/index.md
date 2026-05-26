@@ -41,33 +41,33 @@ If you're on a regular x64 laptop (Almost everyone) visit https://www.python.org
 
 If you're using a Snapdragon laptop, visit the above link and install the Windows Installer (ARM64) program.
 
-![Downloading Python on Windows](/posts/learning-python/images/windows/step1.png)
+![Downloading Python on Windows](images/windows/step1.png)
 
 Scroll down the page a bit until you see something similar to the image below. Remember what platform you're on and download the appropriate file.
 
-![Downloading Python on Windows](/posts/learning-python/images/windows/step2.png)
+![Downloading Python on Windows](images/windows/step2.png)
 
 Wait for the file to download. Once it's download it should look something like this:
 
-![Downloading Python on Windows](/posts/learning-python/images/windows/step3.png)
+![Downloading Python on Windows](images/windows/step3.png)
 
 Navigate to your downloads folder and double click on python-3.13.7-amd64.exe or python-3.13.7-arm64.exe (Depending on what you downloaded) to run the installer:
 
-![Downloading Python on Windows](/posts/learning-python/images/windows/step4.png)
+![Downloading Python on Windows](images/windows/step4.png)
 
 Click the 'Install Now' button and wait for Python to install itself. Once you reach the 'Setup was successful' screen, exit the program.
 
-![Installing Python on Windows](/posts/learning-python/images/windows/step5.png)
+![Installing Python on Windows](images/windows/step5.png)
 
-![Installing Python on Windows](/posts/learning-python/images/windows/step6.png)
+![Installing Python on Windows](images/windows/step6.png)
 
-![Installing Python on Windows](/posts/learning-python/images/windows/step7.png)
+![Installing Python on Windows](images/windows/step7.png)
 
 Press the Windows button on your keyboard and type cmd. An app called Command Prompt will appear. Open Command Prompt.
 
-![Run Python on Windows](/posts/learning-python/images/windows/step8.png)
+![Run Python on Windows](images/windows/step8.png)
 
-![Run Python on Windows](/posts/learning-python/images/windows/step9.png)
+![Run Python on Windows](images/windows/step9.png)
 
 At this stage, your desktop should look similar to the image above. This is what you will use to run the Python programs we create in the workshop. For now, set it aside and move on to the 'Your First Program' section. If you face any issues, use the [Official Windows Python Install Guide](https://docs.python.org/3/using/windows.html).
 
@@ -80,37 +80,37 @@ Official MacOS Python Install Guide: https://docs.python.org/3/using/mac.html
 
 To download the Python installer, navigate to https://www.python.org/downloads/release/python-3137 and look for the macOS 64-bit universal2 installer and download it, seen below.
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step1.png)
+![Downloading Python on Mac](images/mac/step1.png)
 
 Make sure this is the file you download:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step2.png)
+![Downloading Python on Mac](images/mac/step2.png)
 
 Once it has downloaded, double click on the file to launch the installer:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step3.png)
+![Downloading Python on Mac](images/mac/step3.png)
 
 Navigate through the launcher to install Python:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step4.png)
+![Downloading Python on Mac](images/mac/step4.png)
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step5.png)
+![Downloading Python on Mac](images/mac/step5.png)
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step6.png)
+![Downloading Python on Mac](images/mac/step6.png)
 
 Once that is complete, Python is installed and you should see the following prompt:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step7.png)
+![Downloading Python on Mac](images/mac/step7.png)
 
 However, you now need to install a certificate to allow Python to work correctly.
 
 Navigate to the `Applications/Python 3.13/` directory to view the following contents:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step8.png)
+![Downloading Python on Mac](images/mac/step8.png)
 
 Double clicking on the .command file will allow Python to run correctly. You should be able to see the following prompt within a terminal window:
 
-![Downloading Python on Mac](/posts/learning-python/images/mac/step9.png)
+![Downloading Python on Mac](images/mac/step9.png)
 
 When this is complete, you can open the terminal app. If you type the below command and press enter, you should see Python and it's version number.
 
@@ -148,7 +148,7 @@ For **Windows**:
 
 `py --version`
 
-![Running Python on Windows](/posts/learning-python/images/windows/step10.png)
+![Running Python on Windows](images/windows/step10.png)
 
 It should print Python 3.XX.X to the screen, with X being the specific version numbers of the program.
 
@@ -160,7 +160,7 @@ Name it `myfirstprogram`, as it's the first program you've ever made! Make sure 
 
 Once you're ready to edit the file, add the following:
 
-![Running Python on Windows](/posts/learning-python/images/windows/step11.png)
+![Running Python on Windows](images/windows/step11.png)
 
 Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.
 
@@ -174,7 +174,7 @@ Once you've done that, you should be in the correct folder. Run the command belo
 
 You should have seen a 9 get printed to the console on your screen. That means that you've just ran your first program!
 
-![Running Python on Windows](/posts/learning-python/images/windows/step12.png)
+![Running Python on Windows](images/windows/step12.png)
 
 If you don't see that, make sure you've got Python installed and that you've copied the code exactly, otherwise it may not run as you'd expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won't necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.
 
@@ -191,7 +191,7 @@ For **Mac/Linux** (Linux example provided):
 
 `python --version`
 
-![Running Python on Mac/Linux](/posts/learning-python/images/linux/step1.png)
+![Running Python on Mac/Linux](images/linux/step1.png)
 
 You can now create your first application using your favourite text editor (such as notepad+++ on Windows).
 
@@ -201,7 +201,7 @@ Name it `myfirstprogram.py`, as it's the first program you've ever made! Make su
 
 Once you're ready to edit the file, add the following:
 
-![Running Python on Mac/Linux](/posts/learning-python/images/syntax.png)
+![Running Python on Mac/Linux](images/syntax.png)
 
 Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.
 
@@ -215,7 +215,7 @@ Once you've done that, you should be in the correct folder. Run the command belo
 
 You should have seen a 9 get printed to the console on your screen. That means that you've just ran your first program!
 
-![Running Python on Mac/Linux](/posts/learning-python/images/linux/step2.png)
+![Running Python on Mac/Linux](images/linux/step2.png)
 
 If you don't see that, make sure you've got Python installed and that you've copied the code exactly, otherwise it may not run as you'd expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won't necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.
 
