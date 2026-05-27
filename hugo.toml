@@ -74,3 +74,7 @@ theme = ["github.com/mirus-ua/hugo-theme-re-terminal/v2"]
         identifier = "Contact"
         name = "Contact"
         url = "/contact"
+      [[languages.en.menu.main]]
+        identifier = "Guides"
+        name = "Guides"
+        url = "/tags/guide"
