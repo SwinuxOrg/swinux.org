@@ -11,6 +11,8 @@ Have you ever wanted to learn how to code? This article explains the basics to g
 
 If you haven't yet, [join our club](https://campus.hellorubric.com/?s=12119) and [our discord](https://discord.gg/ZfCW8DhnhA)! This will allow you to chat with other Swinburne students interested in Computer Science, who will be happy to give you all sorts of tips and tricks as well as help if you're stuck.
 
+{{< inset-contentstable >}}
+
 # Setting Up Your Computer
 
 First, we need to establish some terms so you know what we're talking about:
@@ -24,14 +26,6 @@ First, we need to establish some terms so you know what we're talking about:
 - **Operating System (OS)**: There are three major Operating Systems, Windows, Mac and Linux. Each one may have a different way of setting things up. Where they are different, we will write specific instructions for you to follow.
 
 Before we even start coding you'll need to install Python. It's an accessible and readable programming language developed in 1991. You'll find out exactly why it's so accessible and readable soon.
-
-[Click here for the Windows installation steps.](https://swinux.org/posts/learning-python/post/#installing-python-on-windows)
-
-[Click here for the Mac installation steps.](https://swinux.org/posts/learning-python/post/#installing-python-on-mac)
-
-[Click here for the Linux installation steps.](https://swinux.org/posts/learning-python/post/#installing-python-on-linux)
-
-[Other Workshop Resources](https://swinux.org/posts/learning-python/post/#resources)
 
 ## Installing Python on Windows
 
