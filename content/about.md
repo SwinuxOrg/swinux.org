@@ -23,3 +23,4 @@ Our socials are below:
 - Email: contact@swinux.org
 
 
+This site is hosted on Cloudflare and built using Hugo. The website repository is public, and can be found [here](https://github.com/swinuxclub/swinux.org/tree/main).
