@@ -12,7 +12,7 @@ theme = ["github.com/mirus-ua/hugo-theme-re-terminal/v2"]
   themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 5
+  showMenuItems = 10
 
   # show selector to switch language
   showLanguageSelector = false
@@ -78,3 +78,7 @@ theme = ["github.com/mirus-ua/hugo-theme-re-terminal/v2"]
         identifier = "Guides"
         name = "Guides"
         url = "/tags/guide"
+      [[languages.en.menu.main]]
+        identifier = "RSS"
+        name = "RSS Feed"
+        url = "/index.xml"

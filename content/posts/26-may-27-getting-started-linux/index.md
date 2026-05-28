@@ -107,6 +107,7 @@ However, there'll be times when you'll realise that there's several significant 
 
 {{< inset-img-rect src="images/cachyos-filesystem.png" alt="A screenshot of the Ptyxis terminal with a list of directories in the root partition." caption="*Terminal showing directories in the root partition.*">}}
 
+
 If you've used a MacOS system before you'll realise how similar the filesystem is. That's because they're [UNIX-like](https://en.wikipedia.org/wiki/Unix-like), both based on an ancestor operating system that shares a similar filesystem structure. At the heart of the Linux filesystem is the root directory (/), the point from which all directories (also known as folders, broadly interchangeable terms) are placed or stem from, sort of like the C:\ folder in Windows.
 
 From the root directory, there are several different directories with different functions and uses. However, you won't need to use or interact with all of them. Some important ones are listed below:
