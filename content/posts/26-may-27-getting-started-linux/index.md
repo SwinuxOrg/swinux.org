@@ -3,7 +3,7 @@ draft = false
 date = 2026-05-27T12:30:00+10:00
 title = "Getting Started With Linux: The Beginner's Brief"
 description = ""
-author = ['Swinux Committee']
+author = 'Swinux Committee'
 tags = ['article','guide','linux']
 +++
 
