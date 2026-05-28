@@ -3,11 +3,9 @@ draft = false
 date = 2026-05-27T12:30:00+10:00
 title = "Getting Started With Linux: The Beginner's Brief"
 description = ""
-authors = ['Swinux Committee']
+author = ['Swinux Committee']
 tags = ['article','guide','linux']
 +++
-
-*This is a post redistributed from [timfo.xyz](https://timfo.xyz/posts/making-choice-switch-linux/) with permission from the author.*
 
 There's been a lot of fuss about Linux in the past couple of months (and years), and it hasn't exactly come from nowhere. A huge cultural shift has taken place due to the perceived lack of control over the devices we own and use everyday.
 
@@ -39,24 +37,24 @@ Linux also provides a safe haven against spyware, adware and other potentially m
 
 ## How Can I Install Linux?
 
-There's three main ways you can use Linux, but only the first two are particularly usable in day-to-day situations.
+There's three main ways you can use Linux, but only the first two are particularly usable in day-to-day situations, dual-booting and standalone Linux. Before you jump in, make sure to keep backups of your data (you should be doing this anyway!) as you don't want to lose it.
 
 ### Dual-Boot
-The first, and most versatile option is to install Linux alongside your existing Windows installation. Granted you have enough storage to share two operating systems, you can choose at boot time what operating system you want to launch. It's often useful if you want to keep Windows for apps that can't run on Linux such as games like Valorant, a game which requires full access to your computer for you to play.
+The first, and most versatile option is to install Linux alongside your existing Windows installation. Granted you have enough storage to share two operating systems, when you power on your computer, you can choose what operating system you want to launch. It's often useful if you want to keep Windows for apps that can't run on Linux such as games like Valorant, a game which requires full access to your computer for you to play.
 
 ### Standalone
 
-When you run Linux on it's own you forgo Windows entirely, replacing your drive in it's entirety with Linux. This is the simplest option, but is the most irreversable of the three. Before you make this step, you should already have an idea of what software you already use, and potential alternatives if they do not already exist on Linux. 
+When you run Linux on it's own you forgo Windows, replacing your drive in it's entirety with Linux. This is the simplest option, but is the most irreversable of the three. Before you make this step, you should have an idea of what software you already use, and potential alternatives if they do not already exist on Linux.
 
 ### Virtualised
-Virtualised Linux runs on your machine on top of the operating system you already use. This makes it easy to test different versions of Linux, or experiment with and break the system without causing damage to your host operating system. However, you need to set up a virtual environment using software such as QEMU or [VirtualBox](https://www.virtualbox.org/). In addition, virtual machines often lack graphically accelerated environments, which can mean that games and browser can appear slow or non-responsive.
+Virtualised Linux runs on your machine on top of the operating system you already use. This makes it easy to test different versions of Linux, or experiment with and break the system without causing damage or changing your host operating system. However, you need to set up a virtual environment using software such as QEMU or [VirtualBox](https://www.virtualbox.org/). In addition, virtual machines often lack graphically accelerated environments, which can mean that games and browsers can appear slow or non-responsive.
 
 ## What's a Desktop Environment?
 
 {{< inset-img-rect src="images/desktop-environment.png" alt="A screenshot of the GNOME Desktop Environment with the Files app open." caption="*The GNOME Desktop Environment with the Files app open.*">}}
 
 
-A desktop environment provides the tools you need to interface with the operating system, run apps and play games in a visual format. Because users have different requirements and preferences with how they use their computer, several desktop environments exist to cater to these specific needs. If you're on Windows, KDE is the biggest analogue, providing a similar layout to the default Windows environment. MacOS users may find that GNOME is similar to their preferences. 
+A desktop environment provides the tools and programs you need to interface with the operating system, run apps and play games in a graphical format. Because users have different requirements and preferences with how they use their computer and how information is presented to them, several desktop environments exist to cater to these specific needs. If you're on Windows, KDE is the biggest analogue, providing a similar layout to the default Windows environment. MacOS users may find that GNOME is similar to their preferences. 
 
 ### KDE
 [KDE](https://kde.org/plasma-desktop/) is a desktop environment that embraces customisation and openness. Although it's default layout is quite similar to that of Windows, you can significantly change how information is accessed and displayed to the user, a [process called ricing](https://www.reddit.com/r/unixporn/). 
@@ -108,7 +106,6 @@ However, there'll be times when you'll realise that there's several significant 
 ### The Filesystem
 
 {{< inset-img-rect src="images/cachyos-filesystem.png" alt="A screenshot of the Ptyxis terminal with a list of directories in the root partition." caption="*Terminal showing directories in the root partition.*">}}
-
 
 If you've used a MacOS system before you'll realise how similar the filesystem is. That's because they're [UNIX-like](https://en.wikipedia.org/wiki/Unix-like), both based on an ancestor operating system that shares a similar filesystem structure. At the heart of the Linux filesystem is the root directory (/), the point from which all directories (also known as folders, broadly interchangeable terms) are placed or stem from, sort of like the C:\ folder in Windows.
 
@@ -192,12 +189,14 @@ When you're using a new operating system, it can be overwhelming to get started 
 
 ### The Arch Wiki
 
-[The Arch wiki](https://wiki.archlinux.org/title/Main_page) is an excellent wiki resource to learn about specific programs and services used in Linux and it's distributions. It provides some advice on recommended configurations as well as system maintenance and configuration guidance. It's useful for advanced users going off the beaten path.
+[The Arch wiki](https://wiki.archlinux.org/title/Main_page) is an excellent wiki resource to learn about specific programs and services used in Linux and it's distributions. It provides some advice on recommended configurations as well as system maintenance and configuration guidance. 
+
+It's useful for advanced users going off the beaten path, and will become an incredibly useful resource once you've mastered the basics. Note  that their package installation commands will reference `pacman`, Arch Linux's package manager. Yours might be different.
 
 
-### LTT & Short Circuit
+### YouTube
 
-Linus Tech Tips is an accessible and popular YouTube channel which talks about computers. Videos can explain [how to install Linux](https://www.youtube.com/watch?v=_Ua-d9OeUOg) or [what distro to pick](https://www.youtube.com/watch?v=XXrCAC6bUsk).
+Linus Tech Tips is an accessible and popular YouTube channel which talks about computers. Videos can explain [how to install Linux](https://www.youtube.com/watch?v=_Ua-d9OeUOg) or [what distro to pick](https://www.youtube.com/watch?v=XXrCAC6bUsk). Likewise [Explaining Computers](https://www.youtube.com/watch?v=e2wB9r1SYrY) gives an excellent breakdown of what to look for when picking a distro, and some reccomendations.
 
 ### Forums
 
@@ -206,5 +205,7 @@ Linus Tech Tips is an accessible and popular YouTube channel which talks about c
 ### Using AI
 
 If you're keen on AI, it can be a good resource to bounce ideas off of and guide you through simple troubleshooting steps. As always, verify with another source as AI can hallucinate or provide inappropriate advice for your situation.
+
+*This post is redistributed from [timfo.xyz](https://timfo.xyz/posts/making-choice-switch-linux/) with permission from the author.*
 
 
