@@ -131,11 +131,13 @@ There are a multitude of other important directories serving different functions
 {{< inset-img-rect src="images/cachyos-terminal.png" alt="A screenshot of the Ptyxis terminal on CachyOS." caption="*A screenshot of the Ptyxis terminal on CachyOS.*">}}
 
 
-The Linux terminal can often seem an oppressive or daunting barrier to entry to Linux. Your experience with it, however, all depends on how you approach it. When you think of it as a way to dictate tasks for the computer to conduct, it's very much akin to how you use an operating system on a more interactive or visual environment. 
+The Linux terminal can often seem an oppressive or daunting barrier to entry to Linux. Your experience with it, however, all depends on how you approach it. When you think of it as a way to dictate tasks for the computer to conduct, it's very much akin to how you use an operating system already, such as when you move files from one folder to another. 
 
 On some distros you can go without using the terminal at all as they provide other means to download software or edit files, for example. You can however use it to run programs and apps, create, move and delete files and much more, just by using your keyboard. Let's explore some basic commands:
 
 ##### The cd Command
+
+`cd`
 
 This command, when combined with a path relocates your terminal's current working directory (the directory/folder you have open) to the path specified in the command.
 
@@ -167,12 +169,11 @@ Will send you back to the root directory from `/var/lib`.
 
 `ls`
 
-This command lists all of the files and directories in your current working directory. It's simple, but you can use what are called arguments to modify how it works. For example:
+This command lists all of the files and directories in your current working directory. It's simple, but you can use what are called arguments to modify how the command works. For example:
 
 `ls -l`
 
 Will provide you with information about the file or directory, such as when it was created, what user owns it and what file permissions exist.
-
 
 Ultimately, there are a plethora of Linux commands out there for all sorts of use cases but be sure to check what it does first *before* you run it. Plenty of users, myself included, have ran commands without understanding how it'll impact their system and paid the price for it. You don't need to be an expert, but knowing just enough can keep you out of trouble.
 
@@ -201,7 +202,7 @@ Linus Tech Tips is an accessible and popular YouTube channel which talks about c
 
 ### Forums
 
-[Reddit forums](https://www.reddit.com/r/linuxquestions/) can often be a great communal resource for troubleshooting and general guidance. Likewise [Stackoverflow](https://stackoverflow.com/questions/tagged/linux?tab=Newest) or [the Swinux Discord](https://discord.gg/ZfCW8DhnhA) are good places to ask around.
+[Reddit forums](https://www.reddit.com/r/linuxquestions/) can often be a great communal resource for troubleshooting and general guidance.[The Swinux Discord](https://discord.gg/ZfCW8DhnhA) is always a good place to ask fellow students. In addition, [Stackoverflow](https://stackoverflow.com/questions/tagged/linux?tab=Newest) is a good resource with tons of user contributions.
 
 ### Using AI
 
