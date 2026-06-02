@@ -43,11 +43,11 @@ Posts are saved to the content directory. The about and content pages are self-c
 A post should be self-contained in it's own folder, with any images being placed in an /images subfolder. A post should have the following structure and be placed in the /posts directory:
 
 Page:
-- `01-oct-27-my-first-post/index.md`
-- `01-oct-27-my-first-post/images/my-first-post-image1.png`
-- `01-oct-27-my-first-post/images/my-first-post-cutekittens.png`
+- `oct-01-my-first-post/index.md`
+- `oct-01-my-first-post/images/my-first-post-image1.png`
+- `oct-01-my-first-post/images/my-first-post-cutekittens.png`
 
-**Note that the markdown file must be named index.md. In addition, our naming convention requires that the date is in the format year-month-day-title such as 25-jul-13-first-blog-post. Please keep as close to this as possible.**
+**Note that the markdown file must be named index.md. In addition, our naming convention requires that the date is in the format year-month-day-title such as jul-13-first-blog-post. Please keep as close to this as possible.**
 
 <h2>Markdown Post Structure</h2>
 
@@ -60,7 +60,7 @@ author = "The Author"<br>
 description = "This is the description of my first post!"<br>
 readingTime = true<br>
 draft = true<br>
-tags = ["tag1","tag2", "hi"]<br>
+tags = ["tag1","tag2", "linux"]<br>
 +++<br>
 
 **description = "string"**<br>
@@ -88,9 +88,12 @@ So that an image can be inserted with:
 
 `{{< inset-img src="images/my-first-post-image1.png" alt="Your alt text.">}}`
 
-The above is the preferred method for attaching images, as they are automatically compressed on site build and results in faster loading of the webpage. The image will be automatically cropped to a square aspect ratio.
+`{{< inset-img-rect src="images/my-first-post-image-rectangle1.png" alt="Your alt text.">}}`
 
-However, you can also use the below method for non-square images. We discourage this in preference to site load times.
+
+The above is the preferred method for attaching images, as they are automatically compressed on site build and results in faster loading of the webpage. The image will be automatically cropped to either a square or rectangle aspect ratio.
+
+However, you can also use the below method for non-standard images. We discourage this as we preference site load times.
 
 `[Alt Text For Image](/posts/my-first-post/images/my-first-post-cutekittens.png)`
 
