@@ -31,7 +31,7 @@ We also relaunched our website, [swinux.org](https://swinux.org), featuring an u
 
 On the administrative side, we launched our Mission Statement & Code of Conduct, codifying and providing guidelines about the remit of the club and what activities it intends to hold. The committee also worked towards providing more documentation for future committee members, ensuring as smooth a transition as possible for the next election.
 
-Looking forward to semester 2, we seek to remedy the relative lack of Workshops by conducing our first Introduction to Linux Workshop alonside other previous workshops hosted in 2025. The Introduction to Linux Workshop is ideal for students looking to enter the world of Linux, or learn more about the Operating System that's breaking into the mainstream.
+Looking forward to semester 2, we seek to remedy the relative lack of Workshops by conducing our first Introduction to Linux Workshop alongside other previous workshops hosted in 2025. The Introduction to Linux Workshop is ideal for students looking to enter the world of Linux, or learn more about the Operating System that's breaking into the mainstream.
 
 As we continue into 2026, we look to continue our in-semester weekly meetups alongside our FOSS Game Nights. Work continues on securing and conducting more in-depth and larger events, and we hope to have some show-stopper events for semester 2 for you to enjoy. We hope everyone has an excellent semester break and wish everyone the best outcome for their units and exams. Onwards and upwards to semester 2!
 
