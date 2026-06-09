@@ -5,7 +5,7 @@ author = "Swinux Committee"
 description = ""
 readingTime = true
 draft = false
-tags = ["event"]
+tags = ["article"]
 +++
 
 As we approach the end of semester 1 and enter into the exam period, we'd like to take the time to thank you for being a member and look back on the events we've held. Your support for this club, your contribution to our spaces and enthusiasm for Linux has meant we've been able to continually push for bigger and better events.
