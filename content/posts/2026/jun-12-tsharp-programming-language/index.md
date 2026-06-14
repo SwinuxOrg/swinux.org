@@ -5,7 +5,7 @@ author = "Dylan Armstrong"
 description = "T# is a pet project of mine that I started building on/off since 2025, however my honours supervisor and I decided that I should start working on it again to understand how ANTLR works, which that (or JavaCC) will be one of the key technologies that we will be using throughout our DSL honours project."
 readingTime = true
 draft = false
-tags = ["article", "linux"]
+tags = ["article", "code"]
 +++
 
 *This article, written by club member Dylan outlines his work in creating an object-orientated turing-complete procedural programming language. You can find his personal website [here](https://dylanarmstrong.net/).*
