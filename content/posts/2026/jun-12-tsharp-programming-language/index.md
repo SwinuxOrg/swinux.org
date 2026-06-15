@@ -58,7 +58,7 @@ The interpreter contains several functions (helper functions such as the functio
 My friend Ash and I, on a Discord voice call one night tested a Conway's Game of Life glider. This was a simple test to work out whether the language was a) Turing complete and b) how well it performs. The answers? Yes (most likely) and VERY SLOW!
 
 T# performed the test in roughly over 1 sec (for 15 generations of a glider). This is very slow for a such a small number of generations. However, it did work. This means that the language could very well be Turing complete.
-new l
+
 ## Lessons Learned
 
 Next time, if I was developing an interpreted programming language - I would definitely use a byte code system behind a virtual machine (similar to Java's JVM) to make the performance better with a byte-code like language in between.
