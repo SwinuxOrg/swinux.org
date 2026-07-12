@@ -10,7 +10,7 @@ tags = ["article"]
 
 **We're looking for enthusiastic students to take up the mantle and join the Swinux Committee for the 2026-2027 period, starting October.**
 
-If you're interested in running events and online spaces, hosting social gatherings or persuing academic experiments (an excellent resume booster!) send a message to @swinuxclub and say hi! Once the committee has a pool of candidates, we will run a short online information session outlining the roles, responsibilities and resources available to the club. This will give you all the resources they need for success in 2027!
+If you're interested in running events and online spaces, hosting social gatherings or persuing academic experiments (an excellent resume booster!) send a message to contact@swinux.org or @swinuxclub via Discord and say hi! Once the committee has a pool of candidates, we will run a short online information session outlining the roles, responsibilities and resources available to the club. This will give you all the resources they need for success in 2027!
 
 In this article, we also hope to shed some light to the state of the club in preparation for the transition of the committee.
 
