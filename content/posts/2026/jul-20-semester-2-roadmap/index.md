@@ -1,22 +1,21 @@
 +++
 title = "What's on at Swinux in Semester 2?"
-date = "2026-07-01T10:30:10+10:00"
+date = "2026-07-19T10:30:10+10:00"
 author = "Swinux Committee"
 description = ""
 readingTime = true
-draft = true
+draft = false
 tags = ["article"]
 +++
-
 
 
 First off, thank you for being a member of the Swinburne Linux Hardware & Code Club! Your support means we can run many events throughout the upcoming semester. 
 
 Semester 2 is shaping up to be the biggest yet, and we're excited to finally show you what events you can expect us to hold for Semester 2:
 
-![Swinux Semester 2 Visual Roadmap](images/timelinesem2.webp)
+[Swinux Semester 2 Visual Roadmap](images/timelinesem2.webp)
 
-As you can see, it's jam packed with different events and opportunities for members to interact with their fellow club members, either online, in person or with other clubs!
+As you can see from the roadmap, it's jam packed with different events and opportunities for members to interact with their fellow club members, either online, in person or with other clubs!
 
 We have different events running throughout Semester 2, including:
 
@@ -27,7 +26,11 @@ We have different events running throughout Semester 2, including:
 
 Although most dates are set in stone, we look forward to trying to squeeze as much into the semester as we can, so if dates shift we will let you know well ahead of time. Rest assured events will be announced via our channels and handled via Rubric.
 
-Also upcoming is our **Annual General Meeting**, which means the club is looking for members to take over for the latter stages of 2026 and into 2027. Several members are stepping down as they have graduated, so we look forward to seeing new students take the reins and make the club better and better.
+Also upcoming is our [**Annual General Meeting**](posts/2026/jul-13-committee-eoi), which means the club is looking for members to take over for the latter stages of 2026 and into 2027. Several members are stepping down as they have graduated, so we look forward to seeing new students take the reins and make the club better and better.
+
+We look forward to seeing you at one of our events, and best of luck for Semester 2!
+
+****
 
 If you're new to Swinux, you can have a look at our previous [events and meetings](https://swinux.org/tags/event) we've held. As always, we're keen to hear your feedback and input regarding the direction of the club. You can always get in contact with us through our email, contact@swinux.org, or alternatively via [Instagram](https://www.instagram.com/swinuxclub/) and [Discord](https://discord.gg/ZfCW8DhnhA).
 

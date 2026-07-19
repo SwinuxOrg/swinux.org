@@ -90,6 +90,7 @@ So that an image can be inserted with:
 
 Square:
 `{{< inset-img src="images/my-first-post-image1.png" alt="Your alt text.">}}`
+
 Rectangular:
 `{{< inset-img-rect src="images/my-first-post-image-rectangle1.png" alt="Your alt text.">}}`
 
@@ -123,6 +124,15 @@ This is the code used to crop and compress images which enables fast page loadin
 `partials/logo.html`<br>
 This is modified to implement a clickable club logo and title in html.
 
+`partials/extended_head.html`<br>
+This is modified to add a clickable promotional banner at the top of every page.
+
+
+<h2> Promotional Banners</h2>
+
+We've extended Hugo to allow for promotional banners on the website. You don't have to use them, and commenting out `partials/extended_head.html` will remove it. 
+
+To create a new promo banner, upload your banner as a promobanner.webp to the /static directory, and modify the href field in `partials/extended_head.html` to your chosen post.
 
 <h2>Deploying the Site to Cloudflare Pages</h2>
 
