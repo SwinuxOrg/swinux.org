@@ -18,16 +18,18 @@ If you've got a cool project you're working on, or want to share something inter
 # What do I use to write it?
 Writing a blog is straightforward. We use Hugo, which makes the formatting easily accessible to a wide range of people. Hugo uses markdown as a formatting mechanism for articles. To create a markdown file, you can replace a .txt file with .md. For example, if I had 'helloworld.txt' I would replace it with 'helloworld.md' to make it markdown compatible. 
 
-There are a variety of tools markdown provides, for example creating headings, lists and links. You can see an exhaustive list of aspects [here](https://www.markdownguide.org/basic-syntax/). Below is a code section of [Setting Up The Swinux Website](/posts/creating-swinux/creating-swinux/) and what it's rendered output will look like.
+There are a variety of tools markdown provides, for example creating headings, lists and links. You can see an exhaustive list of aspects [here](https://www.markdownguide.org/basic-syntax/). Below is a code section of [Setting Up The Swinux Website](/posts/2025/aug-28-setting-up-swinux-website/) and what it's rendered output will look like.
 
 This is the markdown file containing a snippet of the article.
 
-![Swinburne Event Details](/posts/how-to-contribute/images/how-to-contribute-editor.png)
+![Swinburne Event Details](images/how-to-contribute-editor.png)
 
 You can see what it looks like when Hugo formats the page.
 
-![Swinburne Event Details](/posts/how-to-contribute/images/how-to-contribute-page.png)
+![Swinburne Event Details](images/how-to-contribute-page.png)
 
+
+You can find more about our website on [our GitHub page](https://github.com/SwinuxOrg/swinux.org).
 
 # How do I write a blog/article/guide?
 It's up to you. You would have read a forum post or news article before, and found that it is really good at conveying meaning and the author's message. Conversely, you would have seen ways articles are written which didn't appeal to you (perhaps even this article!). 

@@ -73,7 +73,7 @@ In our shell, we can run the command below to start up the webserver. This will 
 
 `hugo server`
 
-![Hugo Command Output](/posts/creating-swinux/images/swinux-hugooutput.png)
+![Hugo Command Output](images/swinux-hugooutput.png)
 
 
 You should be able to see the above output in your shell. If you look closely, you will see that the website is available at:
@@ -82,7 +82,7 @@ You should be able to see the above output in your shell. If you look closely, y
 
 Navigating to this link in our browser, we can see that we indeed have a webpage!
 
-![Webpage Screenshot](/posts/creating-swinux/images/swinux-websitebrowser.png)
+![Webpage Screenshot](images/swinux-websitebrowser.png)
 
 *Isn't that very meta?*
 
