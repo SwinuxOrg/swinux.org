@@ -9,7 +9,7 @@ tags = ["article"]
 
 A lot of the members on this site are only members of a single club, or not members at all. Joining is free for all Swinburne students and helps us raise funds for bigger and better events. We encourage everyone to join all of the clubs below, as each one focuses on unique and engaging aspects of Computer Science. 
 
-![Swinburne Event Details](/posts/trifecta-announcement/images/trifecta.png)
+![Swinburne Event Details](images/trifecta.png)
 
 
 ## The Swinburne Cybersecurity Club
@@ -33,7 +33,7 @@ The Swinburne Linux, Hardware & Code Club (Swinux) is dedicated to providing an 
 - Linux workshops
 - Linux help & discussion
 
-![Swinburne Event Details](/posts/trifecta-announcement/images/trifecta.png)
+![Swinburne Event Details](images/trifecta.png)
 
 If you're new to Swinux, you can have a look at our previous [events and meetings](https://swinux.org/tags/event) we've held. As always, we're keen to hear your feedback and input regarding the direction of the club. You can always get in contact with us through our email, contact@swinux.org, or alternatively via [Instagram](https://www.instagram.com/swinuxclub/) and [Discord](https://discord.gg/ZfCW8DhnhA).
 

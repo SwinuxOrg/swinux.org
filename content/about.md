@@ -11,6 +11,8 @@ Everyone is welcomed to join, no matter what level you feel you are at in regard
 
 If you've got something cool to share, whether it's a project, new software or hardware, we can faciliate that through the club via blogs, pre-recorded videos or in person lectures. Feel free to contact the committee with your ideas, we want to see them!
 
+If you'd like to read more about the student-submitted blogs we accept on the website, you can [read our article 'Can I write a blog/article/guide?'](/posts/2025/jul-30-can-write-blog-article-guide/) to find out more.
+
 We also host in-person meetups, where we chat about tech, share knowlege and work on our assignments. You can find out about them when we announce them on our socials.
 
 Our socials are below:

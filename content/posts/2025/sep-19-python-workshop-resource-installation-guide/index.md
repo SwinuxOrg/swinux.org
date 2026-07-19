@@ -11,9 +11,11 @@ Have you ever wanted to learn how to code? This article explains the basics to g
 
 If you haven't yet, [join our club](https://campus.hellorubric.com/?s=12119) and [our discord](https://discord.gg/ZfCW8DhnhA)! This will allow you to chat with other Swinburne students interested in Computer Science, who will be happy to give you all sorts of tips and tricks as well as help if you're stuck.
 
+
+**Contents**
 {{< inset-contentstable >}}
 
-# Setting Up Your Computer
+## Setting Up Your Computer
 
 First, we need to establish some terms so you know what we're talking about:
 
@@ -27,9 +29,16 @@ First, we need to establish some terms so you know what we're talking about:
 
 Before we even start coding you'll need to install Python. It's an accessible and readable programming language developed in 1991. You'll find out exactly why it's so accessible and readable soon.
 
-## Installing Python on Windows
+****
+## Python on Windows
 
-Official Windows Python Install Guide: https://docs.python.org/3/using/windows.html
+You can find the official Windows Python install guide linked here: 
+
+https://docs.python.org/3/using/windows.html
+
+However, we have provided a short guide with screenshots to provide you with an additional resource to get Python working on your Windows machine.
+
+### Installing Python on Windows
 
 If you're on a regular x64 laptop (Almost everyone) visit https://www.python.org/downloads/release/python-3137 and install the Windows Installer (64-bit) program.
 
@@ -65,12 +74,58 @@ Press the Windows button on your keyboard and type cmd. An app called Command Pr
 
 At this stage, your desktop should look similar to the image above. This is what you will use to run the Python programs we create in the workshop. For now, set it aside and move on to the 'Your First Program' section. If you face any issues, use the [Official Windows Python Install Guide](https://docs.python.org/3/using/windows.html).
 
-[Click here to jump to the next section.](https://swinux.org/posts/learning-python/post/#using-windows-to-run-python-code)
+### Using Windows to run Python code
 
+Once you've got python installed, you can verify that it is in fact ready to run by using the following command in the console:
 
-## Installing Python on Mac
+For **Windows**:
 
-Official MacOS Python Install Guide: https://docs.python.org/3/using/mac.html
+`py --version`
+
+![Running Python on Windows](images/windows/step10.png)
+
+It should print Python 3.XX.X to the screen, with X being the specific version numbers of the program.
+
+You can now create your first application using your favourite text editor (such as notepad+++ on Windows).
+
+To keep your disk nice and clean, we reccomend creating a seperate folder just for Python files. On all Operating Systems, create a folder called Python in your Documents folder.
+
+Name it `myfirstprogram`, as it's the first program you've ever made! Make sure not to append .txt to the file, as Python will not be able to find and run it. You need to append .py to the file so Python will recognise it as a Python program that can be used.
+
+Once you're ready to edit the file, add the following:
+
+![Running Python on Windows](images/windows/step11.png)
+
+Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.
+
+On **Windows**, you can do the following (Keep in mind the folders must exist, and your Python file should exist in that folder/directory):
+
+`cd "C:\Users\yourusername\Documents\Python"`
+
+Once you've done that, you should be in the correct folder. Run the command below:
+
+`py myfirstprogram`
+
+You should have seen a 9 get printed to the console on your screen. That means that you've just ran your first program!
+
+![Running Python on Windows](images/windows/step12.png)
+
+If you don't see that, make sure you've got Python installed and that you've copied the code exactly, otherwise it may not run as you'd expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won't necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.
+
+At this point, you are ready for the workshop. Please follow along with the coding examples during the workshop to get the most out of it, either on your device or via the slides.
+
+[Workshop Resources](posts/2025/sep-19-python-workshop-resource-installation-guide/#resources)
+
+****
+## Python on Mac/Linux
+
+You can find the official Mac Python install guide linked here: 
+
+ https://docs.python.org/3/using/mac.html
+ 
+However, we have provided a short guide with screenshots to provide you with an additional resource to get Python working on your MacOS device.
+
+### Installing Python on Mac
 
 To download the Python installer, navigate to https://www.python.org/downloads/release/python-3137 and look for the macOS 64-bit universal2 installer and download it, seen below.
 
@@ -112,13 +167,18 @@ When this is complete, you can open the terminal app. If you type the below comm
 
 At this stage, Python should be installed correctly. This is what you will use to run the Python programs we create in the workshop. For now, set it aside and move on to the 'Your First Program' section. If you face any issues, use the [Official MacOS Python Install Guide](https://docs.python.org/3/using/mac.html).
 
-[Click here to jump to the next section.](https://swinux.org/posts/learning-python/post/#using-mac/linux-to-run-python-code)
 
-## Installing Python on Linux
+### Installing Python on Linux
 
-Look at you. You're already using Linux, you shouldn't need to be told how to install Python. You probably already have it installed out-of-the-box.
+Look at you. You're already using Linux, you shouldn't need to be told how to install Python. You likely already have it installed out-of-the-box.
 
-If you *really* want to install it again, open the console and type the following, depending on your distribution:
+You can verify this by typing the following into the terminal:
+
+`python --version`
+
+You will see the Python version number printed to your terminal.
+
+In the unlikely scenario you don't have Python installed, open the terminal and type the following, depending on your distribution:
 
 Debian-Based Distributions
 `sudo apt install python`
@@ -132,52 +192,7 @@ Arch-Based Distributions
 Nix/Gentoo-Based Distributions
 `Have fun.`
 
-[Click here to jump to the next section.](https://swinux.org/posts/learning-python/post/#using-mac/linux-to-run-python-code)
-
-# Using Windows to run Python code
-
-Once you've got python installed, you can verify that it is in fact ready to run by using the following command in the console:
-
-For **Windows**:
-
-`py --version`
-
-![Running Python on Windows](images/windows/step10.png)
-
-It should print Python 3.XX.X to the screen, with X being the specific version numbers of the program.
-
-You can now create your first application using your favourite text editor (such as notepad+++ on Windows).
-
-To keep your disk nice and clean, we reccomend creating a seperate folder just for Python files. On all Operating Systems, create a folder called Python in your Documents folder.
-
-Name it `myfirstprogram`, as it's the first program you've ever made! Make sure not to append .txt to the file, as Python will not be able to find and run it. You need to append .py to the file so Python will recognise it as a Python program that can be used.
-
-Once you're ready to edit the file, add the following:
-
-![Running Python on Windows](images/windows/step11.png)
-
-Save the file, and get ready to run the program. Using the console, navigate to the folder/directory where the python file was saved.
-
-On **Windows**, you can do the following (Keep in mind the folders must exist, and your Python file should exist in that folder/directory):
-
-`cd "C:\Users\yourusername\Documents\Python"`
-
-Once you've done that, you should be in the correct folder. Run the command below:
-
-`py myfirstprogram`
-
-You should have seen a 9 get printed to the console on your screen. That means that you've just ran your first program!
-
-![Running Python on Windows](images/windows/step12.png)
-
-If you don't see that, make sure you've got Python installed and that you've copied the code exactly, otherwise it may not run as you'd expect. Python is pretty good with telling you exactly what went wrong and where it happened, but it won't necessarily tell you how to fix it. This is where the resources section below will help you with your understanding.
-
-At this point, you are ready for the workshop. Please follow along with the coding examples during the workshop to get the most out of it, either on your device or via the slides.
-
-[Workshop Resources](https://swinux.org/posts/learning-python/post/#resources)
-
-
-# Using Mac/Linux to run Python code
+### Using Mac/Linux to run Python code
 
 Once you've got python installed, you can verify that it is in fact ready to run by using the following command in the console:
 
@@ -215,9 +230,8 @@ If you don't see that, make sure you've got Python installed and that you've cop
 
 At this point, you are ready for the workshop. Please follow along with the coding examples during the workshop to get the most out of it, either on your device or via the slides.
 
-[Workshop Resources](https://swinux.org/posts/learning-python/post/#resources)
-
-# Resources
+****
+## Resources
 
 Below are links for the workshop, including slides and full code examples:
 - [Google Drive](https://drive.google.com/drive/folders/1F5smICawa9SviFuLLddfIBlY2cNIq6xU?usp=drive_link)

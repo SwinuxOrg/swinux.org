@@ -10,7 +10,7 @@ https://github.com/mirus-ua/hugo-theme-re-terminal
 
 Clone this repo:
 
-`git clone https://github.com/swinuxclub/swinux.org`
+`git clone https://github.com/SwinuxOrg/swinux.org`
 
 Enter the directory:
 
@@ -22,11 +22,11 @@ You can run the site using:
 
 The above enables all posts marked as draft, and fully recreates the site on changes to ensure accuracy.
 
-Afterwards, to build the static files for deployment, run the following:
+If you're using Cloudflare to deploy the site, you will not need to build the files. Instead you may push the changes to GitHub to be made live for the public. If you aren't using Cloudflare, to build the static files for deployment, run the following:
 
 `hugo build`
 
-If you're using Cloudflare to deploy the site, you will not need to build the files.
+This will provide you with the generated files to be served via a webserver, such as Caddy.
 
 If you've deleted the theme, you can remove the `go.sum` and `go.mod` files. Then, run the following commands to re-add the theme.
 
@@ -79,6 +79,8 @@ To maintain site consistency, please only use the following tags:
 - linux
 - hardware
 - code
+- student-submission > For student contributed submissions
+- stem-social > For STEM Social events, organised by the SESS
 
 Images can be referenced in the post (markdown file) with the following directory structure:
 - `images/my-first-post-image1.png`
@@ -86,8 +88,9 @@ Images can be referenced in the post (markdown file) with the following director
 
 So that an image can be inserted with:
 
+Square:
 `{{< inset-img src="images/my-first-post-image1.png" alt="Your alt text.">}}`
-
+Rectangular:
 `{{< inset-img-rect src="images/my-first-post-image-rectangle1.png" alt="Your alt text.">}}`
 
 
@@ -121,7 +124,6 @@ This is the code used to crop and compress images which enables fast page loadin
 This is modified to implement a clickable club logo and title in html.
 
 
-
 <h2>Deploying the Site to Cloudflare Pages</h2>
 
 **This is the preferred (and current) method to deploy the website.**
@@ -133,6 +135,8 @@ View the documentation here:
 https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
 
 You attach the Github repository to Cloudflare which builds and deploys the site on changes to the repository automatically. Failed builds are not deployed, but mistakes can be pushed live.
+
+If you are inheriting this repository, chances are you will not need to configure Cloudflare, as this is already done for you. Just pushing changes to the GitHub will allow you to publish articles and make site changes live for everyone.
 
 **Please double check the accuracy and quality of your posts by using the debug server.**
 

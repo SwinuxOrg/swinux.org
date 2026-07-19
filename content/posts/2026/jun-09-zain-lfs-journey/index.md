@@ -5,7 +5,7 @@ author = "Zain Khan"
 description = "So, I was bored, and I was already compiling `linux-tkg` on my Arch Linux system, so I thought, why not try Gentoo? And then for some reason I ended up going with LFS (Linux From Scratch). _help me_"
 readingTime = true
 draft = false
-tags = ["article", "linux"]
+tags = ["article", "linux", "student-submission"]
 +++
 
 *This article outlines Swinux club member Zain's journey building Linux From Scratch, reposted with permission. You can find his blog [here](https://blog.zain-khan.dev).*
