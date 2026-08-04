@@ -14,7 +14,7 @@ The STEM Social is Swinburne's hottest new social event for students in Engineer
 
 Hosted by SESS, wear your brightest colours to embody the wide spectrum of colours and vibrance of this awesome phenomenon.
 
-**When: Tue 4th August, 5PM**
+**When: Thu 6th August, 5PM**
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 
