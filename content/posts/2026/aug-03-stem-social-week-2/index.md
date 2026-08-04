@@ -12,9 +12,9 @@ The STEM Social is Swinburne's hottest new social event for students in Engineer
 
 **This week's theme is Spectroscopy!**
 
-Hosted by SESS, wear your brightest colours to embody the wide spectrum of colours and vibrance of this awesome phenomenon.
+Meet us at Nevs this Thursday, and wear your brightest colours to embody the wide spectrum of colours and vibrancy of this awesome phenomenon and study of Spectroscopy.
 
-**When: Tue 4th August, 5PM**
+**When: Thur 6th August, 5PM**
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 
