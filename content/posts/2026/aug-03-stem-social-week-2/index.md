@@ -1,10 +1,10 @@
 +++
-title = "STEM Social: Week 1"
+title = "STEM Social: Week 2
 date = "2026-08-03T9:30:10+10:00"
 author = "Swinux Committee"
 description = ""
 readingTime = true
-draft = false
+draft = true
 tags = ["event", "stem-social"]
 +++
 
@@ -18,7 +18,8 @@ Hosted by SESS, wear your brightest colours to embody the wide spectrum of colou
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 
-[**Click here to get your free tickets**](https://campus.hellorubric.com/?eid=70632) 
+[**Click here to get your free tickets**](https://campus.hellorubric.com/?s=12099) 
 
 
-![Swinburne Event Details](images/stemsocial.png)
+
+
