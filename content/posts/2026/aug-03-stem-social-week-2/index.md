@@ -1,5 +1,5 @@
 +++
-title = "STEM Social: Week 2
+title = "STEM Social: Week 2"
 date = "2026-08-03T9:30:10+10:00"
 author = "Swinux Committee"
 description = ""
