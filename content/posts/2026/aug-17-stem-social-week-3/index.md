@@ -16,7 +16,7 @@ Meet us at Nevs this Thursday to meet new members, play games and have some fun.
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 
-[**Click here to get your free tickets**](https://campus.hellorubric.com/?s=12099) 
+[**Click here to get your free tickets**](https://campus.hellorubric.com/?eid=72703) 
 
 
 
