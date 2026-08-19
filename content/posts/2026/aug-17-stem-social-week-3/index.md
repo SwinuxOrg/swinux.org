@@ -12,7 +12,7 @@ The STEM Social is Swinburne's hottest new social event for students in Engineer
 
 Meet us at Nevs this Thursday to meet new members, play games and have some fun. This week's meetup is hosted by Swinux.
 
-**When: Thur 20th August, 5PM**
+**When: Thu 20th August, 5PM**
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 

@@ -10,11 +10,8 @@ tags = ["event", "stem-social"]
 
 The STEM Social is Swinburne's hottest new social event for students in Engineering, The Sciences and Technology! Join us weekly at Next Do'r in Nevs, just beside campus. 
 
-**This week's theme is Spectroscopy!**
-
-Meet us at Nevs this Thursday, and wear your brightest colours to embody the wide spectrum of colours and vibrancy of this awesome phenomenon and study of Spectroscopy.
-
-**When: Thur 6th August, 5PM**
+Meet us at Nevs this Thursday to meet new members, play games and have some fun.
+**When: Thu 13th August, 5PM**
 
 **Where: Nevermind Bar, Next Do'r, Burwood Road, Hawthorn**
 
