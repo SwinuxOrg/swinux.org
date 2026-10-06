@@ -1,6 +1,6 @@
 +++
-title = "yt-dlp and FFmpeg Workshop - Announcement"
-date = "2026-10-6T10:00:00+10:00"
+title = "Introduction to Linux"
+date = "2026-10-06T10:00:00+10:00"
 author = "Swinux Committee"
 description = "![Swinburne Event Details](/posts/intro-to-linux-s2-2026-announcement/images/banner.png)"
 readingTime = true
