@@ -2,19 +2,19 @@
 title = "Introduction to Linux"
 date = "2026-10-06T10:00:00+10:00"
 author = "Swinux Committee"
-description = "![Swinburne Event Details](/posts/intro-to-linux-s2-2026-announcement/images/banner.png)"
+description = ""
 readingTime = true
 draft = false
 tags = ["event"]
 +++
 
-![Swinburne Event Details](/posts/intro-to-linux-s2-2026-announcement/images/banner.png)
+{{< inset-img src="images/banner.png" alt="Event details displayed in a visual format.">}}
 
 We have just announced the **Introduction to Linux** Workshop!
 
 * Time: October 9th @ 4:30 PM - 7:30 PM*
 * Location: Hawthorn Campus, ATC101
-* Host: @waruta
+* Host: Leon Burchell - Vice President
 * Please complete pre-workshop before attending.
 
 **Explore and learn the basics of using Linux Mint as a Desktop OS in this in-person workshop.**
