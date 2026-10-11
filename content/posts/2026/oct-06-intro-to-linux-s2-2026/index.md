@@ -38,6 +38,6 @@ Attendance is likely in-person only. This workshop may be recorded, although we 
 
 ## Conclusion
 
-The workshop is over, thanks you to all who attended!
+The workshop is over, thank you to all who attended!
 
 Workshop Document: <https://drive.google.com/file/d/101adqNUiYRlyMjGveqi_xZjR2Su9UwOX/view?usp=drive_link>
