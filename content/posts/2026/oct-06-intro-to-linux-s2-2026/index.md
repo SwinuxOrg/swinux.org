@@ -35,3 +35,9 @@ Attendance is likely in-person only. This workshop may be recorded, although we 
 * Pre-Workshop Content: <https://drive.google.com/drive/folders/1jiycdl11ptHY4M1QZGhowkQcv8aJrNy1>
 
 *The actual end time is likely to be much earlier than this. An extra half-hour was added to ensure the room booking doesn't expire too early.
+
+## Conclusion
+
+The workshop is over, thanks you to all who attended!
+
+Workshop Document: <https://drive.google.com/file/d/101adqNUiYRlyMjGveqi_xZjR2Su9UwOX/view?usp=drive_link>
