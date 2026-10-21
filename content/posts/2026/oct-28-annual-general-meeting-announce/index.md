@@ -21,7 +21,7 @@ You can nominate yourself for the following positions:
 - Treasurer
 - Secretary
 
-Date: Wednesday 28th October
+Date: Wednesday 11th November
 Time: 2:30 - 4:30 PM
 Location: ATC327 or online via Discord
 
