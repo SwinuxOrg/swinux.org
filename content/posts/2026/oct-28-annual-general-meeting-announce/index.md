@@ -25,4 +25,4 @@ Date: Wednesday 28th October
 Time: 2:30 - 4:30 PM
 Location: ATC327 or online via Discord
 
-![Swinburne Event Details](images/AGM.png)
+{{< inset-img src="images/AGM.png" alt="Swinux AGM Poster showing stock business photos with the date and time of the event.">}}
